@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "gameAddr",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/security/09_DoS/DoS.sol": "Attack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/security/09_DoS/DoS.sol": {
+			"keccak256": "0xf28da6ddbec187addaef33a5fd3615aa6e26576454c707e2548cd05eac2cd261",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31957fc30f8307a8b3995a2060a075aa5859b7f547c92ec97c7d7d279a485a60",
+				"dweb:/ipfs/QmYd7zbAyf5AA4paggBgATcka9gVfLrM4z2MyV2PXeNsKN"
+			]
+		}
+	},
+	"version": 1
+}

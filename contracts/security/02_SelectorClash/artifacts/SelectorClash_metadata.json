@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_method",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_bytes",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_bytes1",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_num",
+						"type": "uint64"
+					}
+				],
+				"name": "executeCrossChainTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hackSlector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_bytes",
+						"type": "bytes"
+					}
+				],
+				"name": "putCurEpochConPubKeyBytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "secretSlector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/security/02_SelectorClash/SelectorClash.sol": "SelectorClash"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/security/02_SelectorClash/SelectorClash.sol": {
+			"keccak256": "0x26d405bec0f82936dec813056bff7c9a57fe7529aeb3e802e144a6ccfbfe9dd9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://247e613c118d8c998359e9aa024b89606a51957a1015afe38aa56c2b8a5a4697",
+				"dweb:/ipfs/QmfSz74aUs9RVSwLoxJy5eR8697wJxEzu3ctJMt1gdUjq6"
+			]
+		}
+	},
+	"version": 1
+}

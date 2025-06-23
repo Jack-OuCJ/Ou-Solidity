@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "Receiver",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SendToken",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "amountAllowed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requestTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "requestedAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenContract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice/32_Faucet.sol": "Faucet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice/31_IERC20.sol": {
+			"keccak256": "0xb63b6ddfd1988bdb46bee34453db17f5d373774f905909cdbbbf5cfc12ce1182",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://04614da6a23defa73215cb1763a658cbde22a4a420f0fc8606ee591c09c9b056",
+				"dweb:/ipfs/QmUPtnCYcyVHGn7VerdaWf8sRHg82uEA8L7Cn3t714ggYE"
+			]
+		},
+		"contracts/practice/32_Faucet.sol": {
+			"keccak256": "0x0d5aedbbe01794bdaa35c75e984b39d859a1f32284842cb6d916c17a84b93736",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b539a7c978c5fea2926df1a4214df01a645de94c67d752fae06a13c294e19cb4",
+				"dweb:/ipfs/QmamqqfSPkHAxmUKyCWp4s4YXJgssEoHhMA5PfmZh1r3qX"
+			]
+		}
+	},
+	"version": 1
+}
